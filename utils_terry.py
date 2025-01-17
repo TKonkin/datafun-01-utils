@@ -4,9 +4,9 @@ Module: utils_terry
 
 Purpose: Reusable Module for My Analytics Projects
 
-Description: This module provides a byline for my analytics projects. 
-When we work hard to write useful code, we want it to be reusable.
-A good byline could be used in every Python analytics project we do.
+Description: This is the final byline for my analytics projects. 
+This byline is to be reused in all future projects, 
+but will likely be updated as the course progresses.
 
 Author: Terry Konkin
 

@@ -66,9 +66,13 @@ byline: str = f"""
 Stellar Analytics: Delivering Professional Insights
 ---------------------------------------------------------
 Has International Clients:  {has_international_clients}
+Is This a Large Employer:  {is_large_employer}
 Years in Operation:         {years_in_operation}
+Number of Employees:  {num_employees}
 Skills Offered:             {skills_offered}
+Visuals Offered:  {visuals_offered}
 Client Satisfaction Scores: {client_satisfaction_scores}
+Other Course Scores:  {other_course_scores}
 Minimum Satisfaction Score: {min_score}
 Maximum Satisfaction Score: {max_score}
 Mean Satisfaction Score: {mean_score:.2f}

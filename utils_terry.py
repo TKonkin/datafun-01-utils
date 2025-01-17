@@ -53,10 +53,10 @@ other_course_scores: list = [8.9, 7.2, 9.1]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
 # TODO: Replace these variable names with the variable name of your own numeric list
-min_score: float = min(client_satisfaction_scores)  
-max_score: float = max(client_satisfaction_scores)  
-mean_score: float = statistics.mean(client_satisfaction_scores)  
-stdev_score: float = statistics.stdev(client_satisfaction_scores)
+min_score: float = min(other_course_scores)  
+max_score: float = max(other_course_scores)  
+mean_score: float = statistics.mean(other_course_scores)  
+stdev_score: float = statistics.stdev(other_course_scores)
 
 # Use a Python formatted string (f-string) to show information
 # TODO: Modify the text in the byline to fit your information
@@ -73,10 +73,10 @@ Skills Offered:             {skills_offered}
 Visuals Offered:  {visuals_offered}
 Client Satisfaction Scores: {client_satisfaction_scores}
 Other Course Scores:  {other_course_scores}
-Minimum Satisfaction Score: {min_score}
-Maximum Satisfaction Score: {max_score}
-Mean Satisfaction Score: {mean_score:.2f}
-Standard Deviation of Satisfaction Scores: {stdev_score:.2f}
+Minimum Other Scores: {min_score}
+Maximum Other Scores: {max_score}
+Mean Other Scores: {mean_score:.2f}
+Standard Deviation of Other Scores: {stdev_score:.2f}
 """
 
 #####################################
